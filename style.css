@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Rubik+Burned&family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+}
+.body__header {
+    background-color: #1d3a538a;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(100% - 20px);
+}
+.header__logo {
+}
+.header__name {
+    font-family: "Rubik Glitch", serif;
+    font-size: 64px;
+    color: azure;
+    font-weight: 400;
+}
+.header__button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #465670;
+    border-radius: 20px;
+    padding-right: 15px;
+    gap: 13px;
+}
+.button__icon {
+}
+.button__link {
+    color: azure;
+    font-size: 20px;
+    font-family: "Jura", serif;
+}
+.body__main {
+}
+.main__skidki {
+    background-image: url(img/bg1.png);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 140px;
+    padding-left: 40px;
+}
+.skidki__title{
+    font-size: 128px;
+    color: #ffffff;
+    font-family: "Rubik Burned", serif;
+    width: 955px;
+}
+.skidki__sale {
+    background-color: #404040b4;
+    width: 625px;
+    height: 530px;
+    border-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 100px;
+    position: relative;
+    bottom: 120px;
+}
+.sale__ogr {
+    padding-left: 20px;
+    filter: drop-shadow(0px 0px 40px black);
+}
+.sale__text {
+    color: #ffffff;
+    font-family: "Rubik Glitch", serif;
+    font-size: 57px;
+}
+.sale__penguin {
+    position: absolute;
+    right: -50px;
+    bottom: -40px;
+    width: 170px;
+}
+.main__katalog {
+    background: linear-gradient(to bottom, #4D9BDC, #295376) ;
+}
+.katalog__bg {
+    background-color: #b2adad75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 170px;
+}
+.katalog__title {
+    padding-left: 50px;
+    font-size: 64px;
+    font-family: "Rubik Glitch", serif;
+    font-weight: 200;
+    color: #ffffff;
+}
+.katalog__poisk {
+    background-color: #3332324f;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 40px;
+    border-radius: 20px;
+    width: 730px;
+    padding-bottom: 15px;
+}
+.poisk__text {
+    color: #ffffffa2;
+    font-family: "Jura", serif;
+    font-size: 40px;
+    line-height: 35px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.poisk__form {
+    background-color: #d9d9d960;
+    border: none;
+    width: 520px;
+    height: 25px;
+    margin-top: 18px;
+}
+.katalog__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.buttons__char {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    width: 250px;
+    height: 60px;
+    background-color: #5a5f66;
+    border: 16px solid #5a5f66 ;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: "Jura", serif;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.buttons__char:hover{
+    border: 5px dashed #586691b6 ;
+    background-color: #0000008c ;
+    height: 63px;
+    width: 253px;
+}
+.main__hero {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.hero__tablet {
+    display: flex;
+    flex-direction: column;
+}
+.tablet__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d969;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 25px black);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 20px bottom;
+    height: 300px;
+    width: 370px;
+}
+.item--drow{
+    background-image: url(img/item1.png);
+}
+.item--lega{
+    background-image: url(img/item2.png);
+}
+.item--wr{
+    background-image: url(img/item3.png);
+}
+.item--qop{
+    background-image: url(img/item4.png);
+    background-position: 60%;
+}
+.item--phantom{
+    background-image: url(img/item5.png);
+}
+.item--cm{
+    background-image: url(img/item6.png);
+}
+.item__name {
+    align-self: center;
+    font-size: 36px;
+    font-family: "Jura", serif;
+    font-weight: 500;
+}
+.item__type {
+    align-self: flex-end;
+    font-size: 30px;
+    font-family: "Rubik Glitch", serif;
+    color: #420707;
+    padding-right: 20px;
+    text-shadow: 0 0 7px #ffffff;
+}
+.tablet__price {
+    font-size: 30px;
+    font-family: "Rubik Glitch", serif;
+    align-self: center;
+}
+.footer {
+    display: flex;
+    background-color: #00000085;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__link {
+    background-color: #adadada2;
+    border-radius: 20px;
+    height: 180px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link__sup {
+    font-family: "Jura", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+}
+.link__option {
+    font-family: "Jura", serif;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo__img {
+    width: 120px;
+}
+.logo__name {
+    font-family: "Jura", serif;
+    font-weight: 400;
+    color: #000000a8;
+    font-size: 40px;
+}
+@media (max-width:1350px) {
+    .skidki__sale{
+        bottom: 0;
+        width: 860px;
+    }
+    .katalog__bg{
+        padding-right: 40px;
+    }
+    .katalog__buttons{
+        align-items: center;
+        flex-wrap: wrap ;
+    }
+    .main__hero{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1040px){
+    .skidki__title{
+        font-size: 75px;
+        width: 100%;
+    }
+    .katalog__bg{
+        flex-direction: column;
+    }
+    .skidki__sale{
+        width: 90%;
+    }
+    .main__skidki{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width:870px){
+    .body__header{
+        flex-wrap: wrap;
+    }
+    .main__skidki{
+        padding-top: 200px;
+    }
+    .katalog__poisk{
+        width: 90%;
+    }
+    .poisk__form{
+        width: 60%;
+    }
+}
+@media (max-width:600px){
+    .skidki__title{
+        font-size: 48px;
+    }
+    .button__icon{
+        width: 40px;
+    }
+    .main__skidki{
+        padding-top: 260px;
+    }
+    .sale__ogr{
+        width: 80%;
+    }
+    .sale__penguin{
+        width: 30%;
+        right: -10px;
+    }
+    .sale__text{
+        font-size: 40px;
+    }
+    .skidki__sale{
+        height: 400px;
+    }
+    .main__skidki{
+        height: 78vh;
+    }
+    .logo__name{
+        font-size: 20px;
+    }
+}
+@media (max-width:400px){
+    .main__skidki{
+        padding-left: 10px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .header__name{
+        font-size: 40px;
+    }
+    .footer__link{
+        width: 60%;
+        margin-top: 5px;
+    }
+}
+@media (max-width:400px){
+    .skidki__sale{
+       height: 50%;
+}
+    .skidki__title{
+        font-size: 39px;
+    }
+    .poisk__text{
+        font-size: 28px;
+    }
+    .poisk__form{
+        width: 40%;
+        padding-left: 30px;
+    }
+}
