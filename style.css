@@ -333,6 +333,11 @@
         font-size: 20px;
     }
 }
+@media (max-width:500px){
+    .main__skidki{
+        padding-top: 360px;
+    }
+}
 @media (max-width:400px){
     .main__skidki{
         padding-left: 10px;
@@ -347,11 +352,9 @@
         width: 60%;
         margin-top: 5px;
     }
-}
-@media (max-width:400px){
     .skidki__sale{
        height: 50%;
-}
+    }
     .skidki__title{
         font-size: 39px;
     }
